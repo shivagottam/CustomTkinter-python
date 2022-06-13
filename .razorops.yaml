@@ -6,9 +6,9 @@ tasks:
     - checkout    
     - commands:
       - |
-       cd /opt
-       sonar-scanner -v
-       sonar-scanner \
+      - cd /opt
+      - sonar-scanner -v
+      - sonar-scanner \
          -Dsonar.projectKey=pythonone \
          -Dsonar.sources=. \
          -Dsonar.host.url=http://${SONAR_WEB_HOST} \
