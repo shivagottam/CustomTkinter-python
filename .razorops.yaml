@@ -7,7 +7,7 @@ tasks:
     - commands:
       
       - |
-      cd /opt/
+       cd /opt/
        sudo chmod +x sonar_scanar.sh
        ./sonar_scanar.sh
        sonar-scanner \
