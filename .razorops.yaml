@@ -1,6 +1,7 @@
 tasks:
   hello-job:
     runner: razorci/python
+    tasks:
     runner: razorci/sonar-scanner
     steps:
    
