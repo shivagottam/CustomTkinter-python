@@ -8,7 +8,7 @@ tasks:
       - |
       - cd /opt
       - sonar-scanner -v
-      - sonar-scanner \
+        sonar-scanner \
          -Dsonar.projectKey=pythonone \
          -Dsonar.sources=. \
          -Dsonar.host.url=http://${SONAR_WEB_HOST} \
