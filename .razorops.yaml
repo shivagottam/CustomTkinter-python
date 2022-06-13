@@ -7,9 +7,9 @@ tasks:
     - commands:
       - |
         cd /opt/
-        sonar-scanner \
-         -Dsonar.projectKey=pythonone \
-         -Dsonar.sources=. \
-         -Dsonar.host.url=http://${SONAR_WEB_HOST} \
-         -Dsonar.login=${TOKEN} \
+        sonar-scanner   
+         -Dsonar.projectKey=pythonone   
+         -Dsonar.sources=.   
+         -Dsonar.host.url=http://3.7.69.100:9000   
+         -Dsonar.login=efd43a1aa1a9c374a607e08d049fe3facde71932
    
