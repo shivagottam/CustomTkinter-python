@@ -1,6 +1,6 @@
 tasks:
   hello-job:
-    runner: razorci/python
+    runner: sonarsource/sonar-scanner-cli
     steps:
    
     - checkout    
