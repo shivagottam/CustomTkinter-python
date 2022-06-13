@@ -7,8 +7,6 @@ tasks:
     - commands:
       
       - |
-       sudo chmod +x sonar_scanar.sh 
-       ./sonar_scanar.sh
        cd /opt/
        sonar-scanner \
         -Dsonar.projectKey= python \
