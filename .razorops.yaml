@@ -6,9 +6,8 @@ tasks:
     - checkout    
     - commands:
       - |
-        sonar-scanner \    
-         -Dsonar.projectKey=pythonone \
-         -Dsonar.sources=. \   
-         -Dsonar.host.url=http://3.7.69.100:9000 \   
-         -Dsonar.login=efd43a1aa1a9c374a607e08d049fe3facde71932 \
-   
+        sonar-scanner \
+         -Dsonar.projectKey=pythontwo \
+         -Dsonar.sources=. \
+         -Dsonar.host.url=http://3.7.69.100:9000 \
+         -Dsonar.login=7bac56fb2fdb64c5fc728dde6e1992a936751013
