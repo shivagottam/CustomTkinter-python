@@ -6,6 +6,7 @@ tasks:
     - checkout    
     - commands:
       - |
+        cd /opt/
         sonar-scanner \
          -Dsonar.projectKey=pythonone \
          -Dsonar.sources=. \
